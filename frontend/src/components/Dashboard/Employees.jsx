@@ -47,7 +47,7 @@ const Employees = () => {
             setOpenForm(true);
           }}>Update</a>
           <a style={{ color: 'red' }} onClick={() => { handleDeleteEmployee(record.id); }}>Delete</a>
-          <a onClick={() => { setSearchParams({ tab: 'chat', chatId: record.chatId }); }}>Chat</a>
+          {/* <a onClick={() => { setSearchParams({ tab: 'chat', chatId: record.chatId }); }}>Chat</a> */}
         </Space>
       ),
     },

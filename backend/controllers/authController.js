@@ -43,8 +43,8 @@ const createNewAccessCode = async (req, res) => {
     updatedAt: new Date().toISOString()
   }
 
-  // const smsResult = smsApp.sendSMS(phone, generateSms(code));
-  if (true) {
+  const smsResult = await smsApp.sendSMS(phone, generateSms(code));
+  if (smsResult.ok) {
     await addOrUpdate("users", data, owner ? owner.id : null);
     res.status(200).json({ status: 'ok', message: 'Send access code successfully' });
   } else {
