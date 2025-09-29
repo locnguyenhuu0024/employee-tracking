@@ -13,11 +13,9 @@ This project is a simple employee tracking application built with Node.js, Expre
 
 ## Installation
 
-Please follow the instructions in the `README.md` file in the `backend` and `frontend` directories to set up the application.
-
-## Usage
-
-Please follow the instructions in the `README.md` file in the `backend` and `frontend` directories to run the application.
+Step 1: open Terminal at project folder
+Step 2: run command docker-compose up -d --build
+Step 3: open browser and access to http://localhost:3001/
 
 ## Acknowledgments
 
