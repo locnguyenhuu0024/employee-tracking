@@ -19,10 +19,6 @@ Please follow the instructions in the `README.md` file in the `backend` and `fro
 
 Please follow the instructions in the `README.md` file in the `backend` and `frontend` directories to run the application.
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
 ## Acknowledgments
 
 This project uses the following open-source libraries:
